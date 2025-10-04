@@ -1,0 +1,92 @@
+/* @font-face {
+    font-family: font;
+    src: url(fonts/font.ttf);
+} */
+
+
+body{
+    background-color: antiquewhite;
+}
+
+#h1{
+    color: crimson;
+    border-style: solid;
+    border-width: 5px;
+    border-color: hsl(273, 100%, 30%);
+    border-radius:10px;
+}
+
+h4{
+    color: chocolate;
+    border-bottom: dashed;
+    border-left: 15px dashed;
+}
+
+#pp1{
+    
+    border-style: dotted;
+}
+
+#pp2{
+    border-style: double;
+}
+
+.chorus{
+    font-style: italic;
+    color:mediumpurple;
+    border-style: groove;
+    border-width: 10px;
+    text-shadow: 20px 7px 2px pink, -20px -7px 2px violet;
+}
+
+.vs{
+    color:darkcyan;
+    font-weight: bold;
+    border-style: ridge;
+    border-width: 10px;
+    background-color:aliceblue;
+    box-shadow: 3px 3px 5px;
+}
+
+#title{
+    border-style:inset;
+    border-width: 7px;
+}
+
+#cover{
+    border-style:outset;
+    border-width: 10px;
+}
+
+#link{
+    border-bottom: 5px solid rgb(208, 181, 28);
+    border-left: 5px solid  rgb(49, 208, 28);
+    border-right:5px solid  rgb(28, 130, 208);
+    border-top: 5px solid rgb(208, 28, 112);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#h2{
+    text-shadow: 3px 3px 5px hsl(0, 100%, 50%), -3px -3px 5px hsl(200, 100%, 50%);
+}
+
+.box{
+    border: 5px solid;
+    font-size: 3em;
+    width: 250px;
+    height: 250px;
+}
+
+#box1{
+    background-color:brown;
+    margin: 50px;
+
+}
+#box2{
+    background-color: lightseagreen;
+    margin: auto;
+}
+#boxes{
+    border: 1px solid
+}

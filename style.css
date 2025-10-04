@@ -6,6 +6,7 @@
 
 body{
     background-color: antiquewhite;
+    
 }
 
 #h1{
@@ -209,7 +210,7 @@ h4{
     display:inline-block;
 }
 
-#box{
+.boxx{
     border: 2px solid;
     padding: 25px;
     width: 50%;
@@ -217,7 +218,7 @@ h4{
     float: left;
     text-align: center;
     box-sizing: border-box;
-
+    font-size: 16px;
 }
 
 /* - position:
@@ -226,4 +227,101 @@ h4{
     absolute = positioned relative to nearest ancestor
     sticky   = positioned based on scroll position
     static   = default position for an element */
-    
+
+
+
+
+
+#backg1{
+    background-image: url(metallica_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment:fixed; */
+    height: 100vh;
+    width: 100%;
+    border: 10px double;
+    box-sizing: border-box;
+}
+
+#backg2{
+    background-image: url(metallica_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    border: 10px double;
+    box-sizing: border-box;
+    background-attachment:fixed;
+}
+
+/* combinators = explains the relationship between listed selectors
+    = descendant
+    >= child
+    ~ = general sibling
+    + = adjacent sibling */
+
+#pseudo:link{
+    color:aqua;
+}
+#pseudo:hover{
+    color: rgba(0, 255, 255, 0.372);
+    font-size: 1.1em;
+}
+
+
+
+#pseudo:visited{
+    color: aqua;
+}
+
+#pseudo:active{
+    color: rgb(255, 140, 140);
+    font-size: 1.1em;
+}
+#ul1 > li:hover{
+    background-color: yellow;
+}
+#ul1 > li:not(hover){
+    background-color: rgb(157, 157, 157);
+}
+
+
+#ul2 > li{
+    background-color: rgb(157, 157, 157);
+}
+#ul2 > li:nth-child(even){
+    background-color: yellow;
+}
+
+
+#ul3 > li{
+    background-color: rgb(157, 157, 157);
+}
+#ul3 > li:nth-child(3n+2){
+    background-color: yellow;
+}
+
+
+#greetings p{
+    background-color:lightblue;
+    padding: 10px;
+    display: none;
+}
+
+#greetings:hover p{
+    display: block;
+}
+
+#ps-elements::first-letter{
+    font-size: 5em;
+    font-style: italic;
+}
+
+#fstl::first-line{
+    background-color:yellow;
+}
+
+#fstl::selection{
+    background-color:aquamarine;
+}

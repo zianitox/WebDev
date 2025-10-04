@@ -90,3 +90,140 @@ h4{
 #boxes{
     border: 1px solid
 }
+
+#floatingimg{
+    float: left;
+}
+
+#floatingimgr{
+    float: right;
+}
+
+#floating{
+    border:3px solid;
+    display: flow-root;
+}
+
+
+        /* overflow = property that sets the desired
+        behavior when content does not fit in the
+        parent element box (overflows).
+
+        overflow: visible
+        overflow: hidden
+        overflow: clip
+        overflow: scroll
+        overflow: auto */
+
+#ovfh{
+    border:2px solid;
+    height: 81px;
+    overflow: hidden;
+}
+
+#ovfc{
+    border:2px solid;
+    height: 81px;
+    overflow: clip;
+    overflow-clip-margin: 15px;
+}
+
+#ovfscr{
+    
+    border:2px solid;
+    height: 81px;
+    overflow: scroll;
+}
+
+#ovfauto{
+    border:2px solid;
+    height: 80px;
+    width: 30%;
+    overflow: auto;
+}
+
+    /* display = property specifies if/how
+              an element is displayed
+
+    block-level = start on a new line, take up the full width available
+                  (h1, div, p, form, header, footer ...)
+
+    inline = do not start on a new line, width is limited to what is needed
+             (span, a, img ...) 
+    block, inline, inline-block, none
+             */
+
+             
+#div{
+    background-color:blue;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+
+}
+
+#span{
+    background-color:red;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+
+    display:block;
+}
+
+#div2{
+    background-color:blue;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    display: inline;
+
+}
+
+#span2{
+    background-color:red;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    visibility: hidden;
+    display:inline;
+}
+
+#div3{
+    background-color:blue;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    display: inline-block;
+    visibility: hidden;
+
+}
+
+#span3{
+    background-color:red;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+
+
+    display:inline-block;
+}
+
+#box{
+    border: 2px solid;
+    padding: 25px;
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+/* - position:
+    relative = positioned relative to where it normally is
+    fixed    = positioned relative to the viewport
+    absolute = positioned relative to nearest ancestor
+    sticky   = positioned based on scroll position
+    static   = default position for an element */
+    

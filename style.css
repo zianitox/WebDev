@@ -325,3 +325,22 @@ h4{
 #fstl::selection{
     background-color:aquamarine;
 }
+
+/* #fruits li::before{
+    content: "✔";
+} */
+
+#apple::after{
+    content: "🍎";
+}
+#banana::after{
+    content: "🍌";
+}
+#orange::after{
+    content: "🍊";
+}
+
+#fruits li::marker{
+    content: "✔";
+    color: green;
+}
